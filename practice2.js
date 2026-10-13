@@ -22,3 +22,4 @@ function createStudent(name, grade, gpa) {
 // Test your function — uncomment when ready:
 console.log(createStudent("Alex", 11, 3.7));
 console.log(createStudent("Sam", 10, 2.9));
+
