@@ -1,39 +1,30 @@
-/* cart = []
+cart = []
 shopping = [
-    {name: "6 Infinity Stones", origin: "MCU"},
-    {name: "Command Block", origin:"Minecraft"},
-    {name: "Omnitrix", origin:"BEN 10"},
-    {name: "Master Ball", origin:"Pokémon"},
-    {name: "7 DragonBalls", origin: "DragonBall"},
-    {name: "Chaos Emerald", origin: "Sonic",},
+    {name: "6 Infinity Stones", origin: "MCU", cost: 18},
+    {name: "Command Block", origin:"Minecraft", cost: 45},
+    {name: "Omnitrix", origin:"BEN 10", cost: 25},
+    {name: "Master Ball", origin:"Pokémon", cost: 8},
+    {name: "7 DragonBalls", origin: "DragonBall", cost: 77},
+    {name: "Chaos Emerald", origin: "Sonic", cost: },
     {name: "Kryptonite", origin: "DCU", cost: 10},
     {name: "5 pieces of Exodia", origin: "Yu-Gi-Oh"},
     {name: "Sun Wukong's Staff", origin: "Chinese mythology" },
     {name: "Gold Scar", origin: "Fortnite"},
     {name: "Death Note", origin: "Death Note"},
     {name: "Roblox Banhammer", origin: "Roblox"},
-    {name: "Krabby Patty Secret Formula", origin:"SpongeBob Squarepants"}
-] */
+    {name: "Krabby Patty Secret Formula", origin:"SpongeBob Squarepants"},
+    {name: "Death Star", origin: "Star Wars", cost:},
+    {name: "Master Sword", origin: "The Legend of Zelda", cost: },
+    {name: "Energy Sword", origin: "Halo", cost: },
+    {name: "Gravity Gun", origin: "Half Life 2", cost: },
+    {name: "Megatron", origin: "Transformer", cost: },
+    {name: "The Real Knife", origin: "Undertale", cost: },
+    {name: "The Silver Slippers", origin: "The Wizard Of Oz", cost: },
+    {name: "Compound V", origin: "The Voice", cost: },
+]
+
+function ShoppingCart(){
+    
 
 
-
-
-/* function Christmas(N,list){
-    x=Math.max(...list)
-    track = 0
-    z=0
-    newlist = []
-    while (z<=x){
-        y = Math.min(...list)
-        z+=y
-        if (z<=x){
-            newlist.push(Math.min(...list))
-            list.pop(Math.min(...list))
-            track+=1
-        }
-        track+=1
-        newlist.push(Math.max(...list))
-    }
-    return `There are ${track} presents possible in a stack which are ${newlist} from bottom to top.`
 }
-console.log(Christmas(5,[7,8,2,5,10])) */
