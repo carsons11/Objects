@@ -23,20 +23,19 @@ shop = [
 ]
 
 cart = []
+
 function ShoppingCart(){
-    shop.forEach(shop => {console.log(shop.name + ": " + shop.cost + " lego studs")})
+    shop.forEach(shop => {i=1; console.log(`${shop.name}: ${shop.cost} lego studs`)})
 }
-
+ShoppingCart()
 function Add(x){
-    shop.forEach(function(shop)){
-        
-
-    }
-
-
-
+    shop.forEach(function(shop){
+        if (x===shop.name){
+            cart.push(x)
+        }
+    })
 }
-Add("Gold")
+
 function Remove(){}
 
 function Filter(){}
