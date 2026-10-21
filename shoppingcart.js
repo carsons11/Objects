@@ -22,21 +22,31 @@ shop = [
     {name: "Compound V", origin: "The Boys", cost: Math.floor(Math.random()*9999)},
 ]
 
-cart = []
+cart = {}
 
 function ShoppingCart(){
     shop.forEach(shop => {i=1; console.log(`${shop.name}: ${shop.cost} lego studs`)})
 }
-ShoppingCart()
+
 function Add(x){
     shop.forEach(function(shop){
         if (x===shop.name){
-            cart.push(x)
+            cart.p
         }
     })
 }
+Add("Megatron")
+Add("Gravity Gun")
 
-function Remove(){}
+function Remove(y){
+    cart.forEach(function(cart){
+        if (y===cart){
+            delete cart[y]
+        }
+    })
+}
+Remove("Megatron")
+console.log(cart)
 
 function Filter(){}
 
