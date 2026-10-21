@@ -31,7 +31,7 @@ function ShoppingCart(){
 function Add(x){
     shop.forEach(function(shop){
         if (x===shop.name){
-            cart.p
+            shop.name[x] = cart
         }
     })
 }
