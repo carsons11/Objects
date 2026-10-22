@@ -31,21 +31,21 @@ function ShoppingCart(){
 function Add(x){
     shop.forEach(function(shop){
         if (x===shop.name){
-            shop.name[x] = cart
+            cart.x = cart
         }
     })
 }
 Add("Megatron")
 Add("Gravity Gun")
 
-function Remove(y){
+/* function Remove(y){
     cart.forEach(function(cart){
         if (y===cart){
             delete cart[y]
         }
     })
 }
-Remove("Megatron")
+Remove("Megatron") */
 console.log(cart)
 
 function Filter(){}
