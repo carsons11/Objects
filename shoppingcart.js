@@ -1,4 +1,4 @@
-shop = [
+/* shop = [
     {name: "6 Infinity Stones", origin: "MCU", cost: Math.floor(Math.random()*9999)},
     {name: "Stack of Command Blocks", origin:"Minecraft", cost: Math.floor(Math.random()*9999)},
     {name: "Omnitrix", origin:"BEN 10", cost: Math.floor(Math.random()*9999)},
@@ -38,16 +38,55 @@ function Add(x){
 Add("Megatron")
 Add("Gravity Gun")
 
-/* function Remove(y){
+function Remove(y){
     cart.forEach(function(cart){
         if (y===cart){
             delete cart[y]
         }
     })
 }
-Remove("Megatron") */
+Remove("Megatron")
 console.log(cart)
 
 function Filter(){}
 
-function Total(){}
+function Total(){} */
+
+
+/* console.log("test");
+ */
+/* let x = document.querySelector(".box");
+console.log(x.parentElement);
+x.style.backgroundColor = "rgb(255,255,0)";
+
+const y = document.getElementById("color");
+y.style.backgroundColor = "rgb(0,255,0)";
+
+y.textContent="Hello World"; */
+
+function getRGB(){
+    let r = Math.floor(Math.random()* 256);
+    let g = Math.floor(Math.random()* 256);
+    let b = Math.floor(Math.random()* 256);
+    const box = document.querySelector(".box");
+    box.style.backgroundColor = `rgb(${r},${g},${b})`
+    header.textContent = `rgb(${r},${g},${b})`;
+}
+
+function inject(){
+    const box = document.querySelector(".box");
+    box.insertAdjacentHTML("afterbegin", `<h2 class="test">Inserted</h2>`)
+}
+
+
+
+const header= document.getElementById("color");
+document.getElementById("btn").addEventListener("click", function(){
+    getRGB();
+    inject();
+});
+
+
+//Select the container
+//Create inject function that takes argument for items
+//Inject 1 full HTML card into the container
