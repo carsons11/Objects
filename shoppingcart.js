@@ -75,7 +75,7 @@ function getRGB(){
 
 function inject(){
     const box = document.querySelector(".box");
-    box.insertAdjacentHTML("afterbegin", `<h2 class="test">Inserted</h2>`)
+    box.insertAdjacentHTML("afterbegin", `<h2 class="test">Shop</h2>`)
 }
 
 
