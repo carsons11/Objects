@@ -1,4 +1,4 @@
-/* shop = [
+shop = [
     {name: "6 Infinity Stones", origin: "MCU", cost: Math.floor(Math.random()*9999)},
     {name: "Stack of Command Blocks", origin:"Minecraft", cost: Math.floor(Math.random()*9999)},
     {name: "Omnitrix", origin:"BEN 10", cost: Math.floor(Math.random()*9999)},
@@ -22,7 +22,7 @@
     {name: "Compound V", origin: "The Boys", cost: Math.floor(Math.random()*9999)},
 ]
 
-cart = {}
+/* cart = {}
 
 function ShoppingCart(){
     shop.forEach(shop => {i=1; console.log(`${shop.name}: ${shop.cost} lego studs`)})
@@ -73,16 +73,17 @@ function getRGB(){
     header.textContent = `rgb(${r},${g},${b})`;
 }
 
+
 function inject(){
     const box = document.querySelector(".box");
-    box.insertAdjacentHTML("afterbegin", `<h2 class="test">Shop</h2>`)
+    shop.forEach(shop => {
+    box.insertAdjacentHTML("afterbegin", ` <div class="box">Shop: ${shop.name}</div>`)
+    });
 }
-
 
 
 const header= document.getElementById("color");
 document.getElementById("btn").addEventListener("click", function(){
-    getRGB();
     inject();
 });
 
