@@ -77,7 +77,7 @@ function getRGB(){
 function inject(){
     const box = document.querySelector(".box");
     shop.forEach(shop => {
-    box.insertAdjacentHTML("afterbegin", ` <div class="box">Shop: ${shop.name}</div>`)
+    box.insertAdjacentHTML("beforeend", ` <div class="box">Shop: ${shop.name}</div>`)
     });
 }
 
