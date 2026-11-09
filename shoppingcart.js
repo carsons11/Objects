@@ -64,28 +64,29 @@ y.style.backgroundColor = "rgb(0,255,0)";
 
 y.textContent="Hello World"; */
 
-function getRGB(){
+/* function getRGB(){
     let r = Math.floor(Math.random()* 256);
     let g = Math.floor(Math.random()* 256);
     let b = Math.floor(Math.random()* 256);
     const box = document.querySelector(".box");
     box.style.backgroundColor = `rgb(${r},${g},${b})`
     header.textContent = `rgb(${r},${g},${b})`;
-}
+} */
 
 
 function inject(){
-    const box = document.querySelector(".box");
+    const cardmenu = document.querySelector(".cardsmenu");
     shop.forEach(shop => {
-    box.insertAdjacentHTML("beforeend", ` <div class="box">Shop: ${shop.name}</div>`)
+    cardmenu.insertAdjacentHTML("beforeend", ` <div class="card">
+        <h2 class="title">${shop.name}</h2>
+        <p class="desc">${shop.origin}</p>
+        <p class="price">$: ${shop.cost}</p>        
+        </div>`)
     });
 }
 
+inject();
 
-const header= document.getElementById("color");
-document.getElementById("btn").addEventListener("click", function(){
-    inject();
-});
 
 
 //Select the container

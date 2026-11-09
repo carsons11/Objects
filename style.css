@@ -7,12 +7,13 @@ body,
     padding:0;    
 }
 
-.cards{
+.cardsmenu{
     margin:0;
     padding:0;
     display: flex;
     height: 100vh;
     flex-wrap: wrap;
+    justify-content: center;
     background-color: rgb(149, 238, 238);
 }
 
@@ -20,10 +21,18 @@ body,
 
 
 
-.box{
-    width:30rem;
+.card{
+    display: flex;
+    width:40rem;
     height:30rem;
-    margin-top: 4rem;
+    margin: 4rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    background-color: rgb(246, 255, 127);
+}
 
-    background-color: aquamarine;
+
+.card h2{
+    
 }
