@@ -1,5 +1,5 @@
 shop = [
-    {name: "6 Infinity Stones", origin: "MCU", cost: Math.floor(Math.random()*9999)},
+    {name: "6 Infinity Stones", origin: "MCU", cost: Math.floor(Math.random()*9999), image:`InfinityStones.webp`},
     {name: "Stack of Command Blocks", origin:"Minecraft", cost: Math.floor(Math.random()*9999)},
     {name: "Omnitrix", origin:"BEN 10", cost: Math.floor(Math.random()*9999)},
     {name: "Master Ball", origin:"Pokémon", cost: Math.floor(Math.random()*9999)},
@@ -81,6 +81,7 @@ function inject(){
         <h2 class="title">${shop.name}</h2>
         <p class="desc">${shop.origin}</p>
         <p class="price">$: ${shop.cost}</p>        
+        <img class="cart-img" src="${shop.image}" alt="">
         </div>`)
     });
 }
