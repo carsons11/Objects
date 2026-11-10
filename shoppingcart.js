@@ -1,6 +1,6 @@
 shop = [
     {name: "6 Infinity Stones", origin: "MCU", cost: Math.floor(Math.random()*9999), image:`img/InfinityStones.png`},
-    {name: "Stack of Command Blocks", origin:"Minecraft", cost: Math.floor(Math.random()*9999), image:''},
+    {name: "Stack of Command Blocks", origin:"Minecraft", cost: Math.floor(Math.random()*9999), image:`img/Command-Block.gif`},
     {name: "Omnitrix", origin:"BEN 10", cost: Math.floor(Math.random()*9999)},
     {name: "Master Ball", origin:"Pokémon", cost: Math.floor(Math.random()*9999)},
     {name: "7 DragonBalls", origin: "DragonBall", cost: Math.floor(Math.random()*9999)},
