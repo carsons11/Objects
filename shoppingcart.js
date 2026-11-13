@@ -13,13 +13,13 @@ shop = [
     {name: "Roblox Banhammer", origin: "Roblox", cost: Math.floor(Math.random()*9999), image:`Banhammer.png`},
     {name: "Krabby Patty Secret Formula", origin:"SpongeBob Squarepants", cost: 9999, image:`Krabby_Patty_secret_formula.webp`},
     {name: "Lego Death Star II", origin: "Star Wars", cost: 3449, image:`Death-Star.png`},
-    {name: "Master Sword", origin: "The Legend of Zelda", cost: Math.floor(Math.random()*9999), image:`Master-Sword.png`},
-    {name: "Energy Sword", origin: "Halo", cost: Math.floor(Math.random()*9999), image:``},
-    {name: "Gravity Gun", origin: "Half Life 2", cost: Math.floor(Math.random()*9999), image:``},
-    {name: "Megatron", origin: "Transformer", cost: Math.floor(Math.random()*9999), image:``},
-    {name: "The Real Knife", origin: "Undertale", cost: Math.floor(Math.random()*9999), image:``},
-    {name: "The Ruby Slippers", origin: "The Wizard Of Oz", cost: 28000000, image:``},
-    {name: "Compound V", origin: "The Boys", cost: Math.floor(Math.random()*9999), image:``},
+    {name: "Master Sword", origin: "The Legend of Zelda", cost: Math.floor(Math.random()*9999), image:`Master_Sword.png`},
+    {name: "Energy Sword", origin: "Halo", cost: Math.floor(Math.random()*9999), image:`Halo.webp`},
+    {name: "Gravity Gun", origin: "Half Life 2", cost: Math.floor(Math.random()*9999), image:`Gravity-Gun.png`},
+    {name: "Megatron", origin: "Transformer", cost: Math.floor(Math.random()*9999), image:`Megatron.png`},
+    {name: "The Real Knife", origin: "Undertale", cost: Math.floor(Math.random()*9999), image:`Real_Knife_item.webp`},
+    {name: "The Ruby Slippers", origin: "The Wizard Of Oz", cost: 28000000, image:`Ruby-slippers.png`},
+    {name: "Compound V", origin: "The Boys", cost: Math.floor(Math.random()*9999), image:`Compound-V.png`},
 ]
 
 /* cart = {}
